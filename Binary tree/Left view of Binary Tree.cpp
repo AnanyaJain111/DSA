@@ -11,7 +11,7 @@ void pretree(Node *root,vector<int> &v1, int level){
 }
 vector<int> leftView(Node *root)
 {
-   // Your code here
+  
    vector<int>v;
    pretree(root,v,0);
    return v;
