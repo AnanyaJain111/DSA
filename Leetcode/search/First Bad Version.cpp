@@ -6,7 +6,7 @@ public:
         int mid;
         while(l<r){
             mid=(l+r)/2;
-            if(isBadVersion(mid)){
+            if(isBadVersion(mid)){  // isBadVersion() is already defined funtion in question here.
                 r=mid;
             }
             else{
